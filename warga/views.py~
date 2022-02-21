@@ -1,0 +1,8 @@
+from django.http import JsonResponse
+
+def list_warga(request):
+    result = {
+        "data": []
+    }
+    return JsonResponse(result)
+
